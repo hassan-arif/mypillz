@@ -1,0 +1,36 @@
+﻿summary of all functionalities...
+
+GENERAL---------------------------------------
+loginUser
+newUser
+newMessage			--forum discussion b/w doctors and patients
+userProfile			--displays portfolio of user
+
+DOCTOR----------------------------------------
+pendingRequests			--shows all pending consultancy requests
+acceptRequests			--takes consultancy id and accepts request
+completedConsultancies		--shows all completed consultancies
+
+PATIENT---------------------------------------
+showVendorByDrugID		--show vendors by drugid
+orderDrug			--order medicine by vendorusername & drugid
+inProgressOrder			--shows orders which aren't delivered yet
+unratedOrder			--prints unrated orders which are delivered
+rateVendor			--takes orderid and rating to rate vendor
+previousOrders			--returns all completed+rated orders of patient
+bookAppointment			--books appointment with doctor
+bookedAppointment		--shows all booked appointments of patient
+unratedDoctor			--shows all finished consultation which r unrated
+rateDoctor			--rate doctor after consultation is completed
+previousConsultations		--returns all completed+rated consultancies of patient
+
+VENDOR----------------------------------------
+showVendorDrug			--show my offering medicines
+dropVendorDrug			--drop my offering medicine
+newVendorDrug			--add new medicine
+vendorInProgressOrders		--current inprogress orders
+updateLocation			--updates location of inprogress order
+markCompleion			--marks inprogress completion and updates location to 'Destination'
+vendorCompletedOrders		--shows all completed orders of current vendor
+
+----------------------------------------------
