@@ -15,7 +15,8 @@ Languages:
 3. MySQL -> Back End Database.
 
 Note:
-- This is localhost so you can test this application on your own machine too.
+- "screenshots" directory contains selective bird-eye view of web app.
+- Furthermore, this is localhost so you can test this application on your own machine too.
 - Run SQL queries in this order: 1_Schema.sql, 2_Procedures.sql, 3_DummyData.sql.
 - Due to safety issues, 'connectionString' is left empty in "Web.config" file.
 - So don't forget to set it according to your system, enjoy!
