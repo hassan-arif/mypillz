@@ -27,7 +27,7 @@ namespace WebApplication3
             myDAL objMyDal = new myDAL();
             String s = objMyDal.LogOut();
             //Response.Write(s);
-            Response.Redirect("login.aspx");
+            Response.Redirect("main.aspx");
         }
 
         public void LoadForumGrid(object sender, EventArgs e)

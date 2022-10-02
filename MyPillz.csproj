@@ -109,7 +109,7 @@
     <Content Include="js\vendor\jquery-1.10.1.min.js" />
     <Content Include="js\vendor\jquery.gmap3.min.js" />
     <Content Include="js\vendor\modernizr-2.6.2.min.js" />
-    <Content Include="login.aspx" />
+    <Content Include="main.aspx" />
     <Content Include="login.png" />
     <Content Include="logo.png" />
     <Content Include="patient.aspx" />
@@ -128,12 +128,12 @@
     <Compile Include="doctor.aspx.designer.cs">
       <DependentUpon>doctor.aspx</DependentUpon>
     </Compile>
-    <Compile Include="login.aspx.cs">
-      <DependentUpon>login.aspx</DependentUpon>
+    <Compile Include="main.aspx.cs">
+      <DependentUpon>main.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="login.aspx.designer.cs">
-      <DependentUpon>login.aspx</DependentUpon>
+    <Compile Include="main.aspx.designer.cs">
+      <DependentUpon>main.aspx</DependentUpon>
     </Compile>
     <Compile Include="patient.aspx.cs">
       <DependentUpon>patient.aspx</DependentUpon>

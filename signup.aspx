@@ -63,7 +63,7 @@
          <%-- Button --%>
         <asp:Button ID="btnCreate" Text="Create Account" OnClick="Create_Account" runat="server" />&nbsp;
             <%-- Button --%>
-        <asp:Button ID="Button1" Text="Login Existing Account" PostBackUrl="~/login.aspx" runat="server" /><br /><br />
+        <asp:Button ID="Button1" Text="Login Existing Account" PostBackUrl="~/main.aspx" runat="server" /><br /><br />
 
             <div id="message1" runat="server"></div>
         </div>

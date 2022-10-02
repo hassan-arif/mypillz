@@ -19,7 +19,7 @@ namespace WebApplication3
             myDAL objMyDal = new myDAL();
             String s = objMyDal.LogOut();
             //Response.Write(s);
-            Response.Redirect("login.aspx");
+            Response.Redirect("main.aspx");
         }
 
         //function which prints all medicines of Drug table
